@@ -37,7 +37,5 @@ public class BangunDatar {
 		for(int i=0; i < luasBangunDatar.length; i++) {
 			System.out.println("Luas " + bangunDatar[i]+" : " + luasBangunDatar[i]);
 		}	
-
 	}
-
 }

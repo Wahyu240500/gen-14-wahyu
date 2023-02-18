@@ -48,6 +48,4 @@ public class BelahKetupat {
 		hasil = (diagonal1*diagonal2)/2;
 		return hasil;
 	}
-	
-	
 }

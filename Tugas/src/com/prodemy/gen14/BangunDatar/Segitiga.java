@@ -65,6 +65,4 @@ public class Segitiga {
 		hasil = alas*tinggi/2;
 		return hasil;
 	}
-
-	
 }

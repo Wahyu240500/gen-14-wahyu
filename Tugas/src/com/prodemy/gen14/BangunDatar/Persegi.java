@@ -26,6 +26,4 @@ public class Persegi {
 		hasil = sisi*sisi;
 		return hasil;
 	}
-
-	
 }

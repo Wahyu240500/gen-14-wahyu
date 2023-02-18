@@ -28,7 +28,5 @@ public class Lingkaran {
 		int hasil;
 		hasil = (int) (this.phi * (jariJari * jariJari));
 		return hasil;
-	}
-
-	
+	}	
 }
