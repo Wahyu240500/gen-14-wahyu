@@ -49,4 +49,5 @@ public class BelahKetupat {
 		return hasil;
 	}
 	
+	
 }

@@ -13,6 +13,7 @@ public class Segitiga {
 		this.sisiSegitiga3 = sisiSegitiga3;
 	}
 
+	
 	public int getAlas() {
 		return alas;
 	}

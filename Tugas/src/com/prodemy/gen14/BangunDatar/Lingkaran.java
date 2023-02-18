@@ -6,7 +6,6 @@ public class Lingkaran {
 	
 	public Lingkaran () {	
 	}
-	
 	public Lingkaran(int jariJari) {
 		super();
 		this.jariJari = jariJari;

@@ -5,7 +5,6 @@ public class Persegi {
 	
 	public Persegi () {	
 	}
-	
 	public Persegi(int sisi) {
 		super();
 		this.sisi = sisi;

@@ -29,7 +29,6 @@ public class BangunDatar {
 		for(int i=0; i < kelilingBangunDatar.length; i++) {
 			System.out.println("Keliling " +bangunDatar[i]+" : "+ kelilingBangunDatar[i]);
 		}
-		
 		int luasBangunDatar[]= new int[4];
 		luasBangunDatar[0]= s.luasSegitiga(s.getAlas(),s.getTinggi());
 		luasBangunDatar[1]= p.luasPersegi(p.getSisi());
