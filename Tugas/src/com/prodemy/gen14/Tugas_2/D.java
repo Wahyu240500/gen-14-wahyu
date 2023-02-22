@@ -13,8 +13,7 @@ public class D {
             		System.out.print(ganjilAwal);	
             	}
             	else if(i+j == n-1){
-            		System.out.print(ganjilAkhir);   
-            		//System.out.print(i+" ");   
+            		System.out.print(ganjilAkhir);     
             	} else {
                 System.out.print(" ");
             	}
@@ -24,4 +23,5 @@ public class D {
             System.out.println();
 		}
 	}
+	
 }
