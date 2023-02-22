@@ -1,32 +1,32 @@
 package com.prodemy.gen14.BangunDatar;
 
-public class Lingkaran {
-	int jariJari;
-	float phi = 3.14F;
+public class Lingkaran extends BangunDatar {
+private double jariJari;
 	
-	public Lingkaran () {	
-	}
-	public Lingkaran(int jariJari) {
+// CONSTRUCTOR
+	public Lingkaran(double jariJari) {
 		super();
 		this.jariJari = jariJari;
-		//this.phi = phi;
 	}
-	public int getJariJari() {
+
+//GETTER
+	public double getJariJari() {
 		return jariJari;
 	}
-	public void setJariJari(int jariJari) {
+	
+// SETTER
+	public void setJariJari(double jariJari) {
 		this.jariJari = jariJari;
 	}
+
 	
-	public int kelilingLingkaran(int jariJari) {
-		int hasil;
-		hasil = (int) (2* this.phi * jariJari);
-		return hasil; 
+	public String keliling() {
+		keliling = 2*3.14*jariJari;
+		return "Keliling Lingkaran = " +keliling+ " m";	
 	}
 	
-	public int luasLingkaran(int jariJari) {
-		int hasil;
-		hasil = (int) (this.phi * (jariJari * jariJari));
-		return hasil;
+	public String luas() {
+		luas = 3.14*jariJari*jariJari;
+		return "Luas Lingkaran = " +luas+ " m";
 	}	
 }

@@ -1,51 +1,46 @@
 package com.prodemy.gen14.BangunDatar;
 
-public class BelahKetupat {
-	int sisi, diagonal1, diagonal2;
+public class BelahKetupat extends BangunDatar {
+private double sisi, diagonal1, diagonal2;
 	
-	public BelahKetupat () {	
-	}
-	
-	public BelahKetupat(int sisi, int diagonal1, int diagonal2) {
+//CONSTRUCTOR
+	public BelahKetupat(double sisi, double diagonal1, double diagonal2) {
 		super();
 		this.sisi = sisi;
 		this.diagonal1 = diagonal1;
 		this.diagonal2 = diagonal2;
 	}
 
-	public int getSisi() {
+//GETTER
+	public double getSisi() {
 		return sisi;
 	}
-
-	public void setSisi(int sisi) {
+	public void setSisi(double sisi) {
 		this.sisi = sisi;
 	}
-
-	public int getDiagonal1() {
+	public double getDiagonal1() {
 		return diagonal1;
 	}
-
-	public void setDiagonal1(int diagonal1) {
+	
+// SETTER	
+	public void setDiagonal1(double diagonal1) {
 		this.diagonal1 = diagonal1;
 	}
-
-	public int getDiagonal2() {
+	public double getDiagonal2() {
 		return diagonal2;
 	}
-
-	public void setDiagonal2(int diagonal2) {
+	public void setDiagonal2(double diagonal2) {
 		this.diagonal2 = diagonal2;
 	}
-
-	public int kelilingBelahKetupat(int sisi) {
-		int hasil;
-		hasil = 4*sisi;
-		return hasil; 
+	
+	
+	public String keliling() {
+		keliling = 4*sisi;
+		return "Keliling Belah Ketupat = " +keliling+ " m";	
 	}
 	
-	public int luasBelahKetupat(int diagonal1, int diagonal2) {
-		int hasil;
-		hasil = (diagonal1*diagonal2)/2;
-		return hasil;
+	public String luas() {
+		luas = (diagonal1*diagonal2)/2;
+		return "Luas Belah Ketupat = " +luas+ " m";
 	}
 }
