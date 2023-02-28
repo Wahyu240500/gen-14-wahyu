@@ -23,5 +23,4 @@ public class D {
             System.out.println();
 		}
 	}
-	
 }
